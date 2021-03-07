@@ -1,0 +1,24 @@
+﻿<Page x:Class="Harjoitus_19__WPF_.Kerros5"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Harjoitus_19__WPF_"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Kerros5">
+
+    <Grid>
+        <Rectangle HorizontalAlignment="Center" Height="450" Stroke="Black" VerticalAlignment="Center" Width="800" FlowDirection="LeftToRight">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FEFFADAD" Offset="0.942"/>
+                    <GradientStop Color="#FE3B2838" Offset="0.197"/>
+                    <GradientStop Color="#FECD3131" Offset="0.544"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+
+    </Grid>
+</Page>
